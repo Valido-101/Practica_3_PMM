@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtview_inicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtview_inicio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btn_imagen"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/txtview_inicio"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/btn_imagen"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/btn_xml"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/btn_imagen"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/btn_xml"
+        android:textSize="20dp"
+        />
+
+</RelativeLayout>
