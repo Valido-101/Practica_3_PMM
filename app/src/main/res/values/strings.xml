@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Practica_3</string>
+    <string name="app_name">Practica_3_Jesús_Valido_Zafra</string>
     <string name="txtview_inicio">Bienvenido a la práctica 3</string>
     <string name="btn_imagen">Imagen HTTP</string>
     <string name="btn_xml">XML HTTP</string>

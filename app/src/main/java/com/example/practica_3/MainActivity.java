@@ -10,8 +10,7 @@ import android.widget.Button;
 public class MainActivity extends Activity implements View.OnClickListener{
 
     //Creamos los intents para abrir las otras actividades
-    Intent act_imagen = new Intent(this, DescargarImagenActivity.class);
-    Intent act_xml = new Intent(this, DescargarXMLActivity.class);
+
 
     //Creamos los objetos botón en los que guardaremos los botones que hay en el layout
     Button btn_imagen;
@@ -37,11 +36,13 @@ public class MainActivity extends Activity implements View.OnClickListener{
         //Si el id de la view que ha sido pulsada coincide con el del botón imagen, se abre esa actividad
         if(v.getId()==btn_imagen.getId())
         {
+            Intent act_imagen = new Intent(this, DescargarImagenActivity.class);
             startActivity(act_imagen);
         }
         //Si no, se abre la actividad de xml
         else
         {
+            Intent act_xml = new Intent(this, DescargarXMLActivity.class);
             startActivity(act_xml);
         }
     }
